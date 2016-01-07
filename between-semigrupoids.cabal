@@ -31,7 +31,7 @@ library
   default-language:     Haskell2010
   other-extensions:     NoImplicitPrelude
 
-  build-depends:        base >=4.7 && <5
+  build-depends:        base >=4.6 && <5
 
   if flag(old-semigroupoids)
     build-depends:      semigroupoids >=4.2 && <5
